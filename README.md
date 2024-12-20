@@ -4,7 +4,7 @@
 
 ---
 
-## OBJECTIVE  
+## 🚀 OBJECTIVE  
 As a developer with 3+ years of experience in .NET programming, I am seeking opportunities to contribute my expertise and skills to the company’s development.  
 
 | **Contact Information** |                              |
@@ -25,7 +25,7 @@ As a developer with 3+ years of experience in .NET programming, I am seeking opp
 
 ---
 
-## SKILLS  
+## 🛠️ SKILLS  
 
 | **Skill**                  | **Technologies**                                            |
 |----------------------------|------------------------------------------------------------|
@@ -35,6 +35,9 @@ As a developer with 3+ years of experience in .NET programming, I am seeking opp
 | **Tools & Platforms**      | Docker, SVN, Git                                           |
 | **Architectural Patterns** | DDD, CQRS, Microservices                                   |
 | **DevOps & Messaging**     | CI/CD, Kafka                                               |
+
+---
+## 🌟 Achievements  
 
 ---
 
