@@ -43,7 +43,8 @@ As a developer with 3+ years of experience in .NET programming, I am seeking opp
 
 ## EXPERIENCE  
 
-### **Freelance .NET/REACTJS**  
+
+### **INNO SOFTWARE Co., Ltd**  
 **04/2024 - PRESENT**  
 **Software Engineer**  
 
@@ -65,7 +66,7 @@ As a developer with 3+ years of experience in .NET programming, I am seeking opp
 ---
 
 ### **INNO SOFTWARE Co., Ltd**  
-**10/2020 - 09/2022**  
+**06/2022 - 04/2024**  
 **.NET Developer**  
 
 | **Responsibilities** |                                                                                     |
