@@ -1,98 +1,47 @@
-# VU XUAN BINH  
+# Vũ Xuân Bình — Software Engineer
 
-**SOFTWARE ENGINEER**  
+Kỹ sư phần mềm full-stack hơn 4 năm kinh nghiệm, hiện là Chuyên viên lập trình ứng dụng tại IIG Vietnam. Song song tự xây dựng và vận hành sản phẩm công nghệ cho doanh nghiệp bên ngoài. Đang tập trung phát triển sâu về AI agent và hạ tầng tự vận hành, hướng tới vai trò kỹ sư có thể làm chủ toàn bộ vòng đời sản phẩm.
 
----
+📄 **CV đầy đủ (xem trực tiếp hoặc hỏi AI agent về kinh nghiệm/dự án):** [devbyspark.com](https://devbyspark.com)
 
-## 🚀 OBJECTIVE  
-As a developer with 3+ years of experience in .NET programming, I am seeking opportunities to contribute my expertise and skills to the company’s development.  
-
-| **Contact Information** |                              |
-|--------------------------|------------------------------|
-| **Phone:**              | 0375251115                  |
-| **Email:**              | binh9aqktk@gmail.com        |
-| **github:**              | /satthuno999               |
-| **Date of Birth:**      | 25/10/1999                 |
-| **Address:**            | 102 Tran Phu               |
+📍 Hà Đông, Hà Nội · ✉️ binh9aqktk@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/spark2510)
 
 ---
 
-## EDUCATION  
+## Kinh nghiệm làm việc
 
-| **Institution**           | **Degree**                  |
-|----------------------------|-----------------------------|
-| Academy of Cryptography   | Software Engineering        |
+**IIG Vietnam** · Chuyên viên lập trình ứng dụng · 04/2025 — Hiện tại
+Phát triển và vận hành các ứng dụng nội bộ quản lý, vận hành thi bằng .NET (.NET 8/WPF), xử lý các nghiệp vụ khảo thí quy mô toàn quốc — đáp ứng hàng trăm đến hàng nghìn thí sinh truy cập cùng thời điểm.
 
----
+**INNO SOFTWARE Co., Ltd** · Software Engineer · 01/2022 — 03/2025
+Thiết kế và phát triển hệ thống backend bằng .NET Core (DDD, CQRS), SQL Server, Redis; các nền tảng CMS bằng Next.js. Dẫn dắt và mentor nhóm 6 người (4 dev, 1 tester, 1 QA).
 
-## 🛠️ SKILLS  
+## Dự án nổi bật
 
-| **Skill**                  | **Technologies**                                            |
-|----------------------------|------------------------------------------------------------|
-| **Programming Languages**  | C#, .NET MVC, .NET Core                                    |
-| **Frontend Development**   | HTML, JS, CSS, Tailwind, Bootstrap, MUI, ReactJs, Ionic, Angular, NextJS |
-| **Database Management**    | SQL Server, Postgres, MongoDB, Redis                       |
-| **Tools & Platforms**      | Docker, SVN, Git                                           |
-| **Architectural Patterns** | DDD, CQRS, Microservices                                   |
-| **DevOps & Messaging**     | CI/CD, Kafka                                               |
+| Dự án | Công ty | Công nghệ |
+|---|---|---|
+| Hệ thống Email Service nội bộ | IIG Vietnam | .NET, React, Kafka, Redis, Background Worker |
+| English Learning & Management Application (khách hàng IIG Việt Nam) | INNO SOFTWARE | .NET Core, SQL Server, Redis, Next.js, xUnit, Docker |
+| Internal Transport Management (khách hàng Youth Transport) | INNO SOFTWARE | .NET MVC/Core, Ionic, Hangfire, SignalR, Redis |
+| Internal Document Sharing Portal (khách hàng SSI Research) | INNO SOFTWARE | .NET MVC, Redis |
+| Salon Appointment Booking (khách hàng ZIO Hair) | INNO SOFTWARE | .NET Core, Angular, SQL Server |
 
----
-## 🌟 Achievements  
+## Dự án cá nhân
 
----
+**CiCi 21 Chùa Láng — Phụ kiện thời trang** — nền tảng HRM/ERP/CRM đa tenant tự thiết kế và vận hành, từ web khuyến mãi mở rộng thành hệ thống quản lý nhân sự/kho/bán hàng đầy đủ, có cả web app và app mobile (iOS, Android). Hiện vận hành cho 2 brand, 20+ người dùng.
 
-## EXPERIENCE  
+`.NET 8` `Clean Architecture` `Next.js` `PostgreSQL` `Redis` `React Native` `Python`
 
+Song song tự nghiên cứu và xây dựng hạ tầng Ops (CI/CD, Monitoring), các dự án ứng dụng mô hình AI để quản lý AI Agent (RAG, session…), sử dụng OpenClaw, Ninerouter.
 
-### **INNO SOFTWARE Co., Ltd**  
-**04/2024 - PRESENT**  
-**Software Engineer**  
+## Kỹ năng
 
-| **Responsibilities** |                                                                                          |
-|-----------------------|------------------------------------------------------------------------------------------|
-| Backend Development  | Built core systems with .NET Core, DDD, CQRS, SQL Server, and Redis for scalable solutions. |
-| Frontend Development | Created CMS platforms with Next.js, Tailwind CSS, and MUI for responsive UIs.             |
-| CI/CD Automation     | Designed CI/CD pipelines using GitHub Actions and Docker to automate builds and deployments. |
-| Client Collaboration | Worked with enterprise clients to gather requirements and resolve technical challenges.   |
-| Team Leadership      | Mentored 6 team members (4 Developers, 1 Tester, 1 QA) using Trello, Jira, and Agile Scrum.|
+- **AI & Agents:** MCP (Model Context Protocol), ReAct tool-calling loops, self-hosted LLM gateway (OpenAI-compatible), Face Tracking / OCR
+- **Backend:** C# / .NET MVC / .NET Core (DDD, CQRS), WPF, Go (chi, pgx), Python (FastAPI), Node.js / NestJS / Express
+- **Database:** SQL Server / PostgreSQL, MongoDB / Redis, WebSocket / SignalR
+- **DevOps & Infra:** Docker, Kubernetes (K8s) + ArgoCD (GitOps), GitHub Actions CI/CD, Kafka
+- **Frontend:** Next.js / React, Tailwind CSS / MUI / Bootstrap, Angular / Ionic
 
-#### **Key Projects:**  
+## Học vấn
 
-| **Project Name**                      | **Technologies**                                  | **Result**                                                                                          |
-|---------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| **English Learning and Management | Tentis**  | .Net Core, SQL Server, Redis, NextJs, xUnit, Docker | Delivered a modern application replacing legacy systems, enhanced performance, and increased user engagement. |
-| **Internal Management for Accessories | Cici** | .NET MVC, SQL Server, ReactJS, Tailwind CSS      | Improved internal operations by managing content, users, and payments with API-based data synchronization.|
-
----
-
-### **INNO SOFTWARE Co., Ltd**  
-**06/2022 - 04/2024**  
-**.NET Developer**  
-
-| **Responsibilities** |                                                                                     |
-|-----------------------|-------------------------------------------------------------------------------------|
-| Initial Development  | Created basic projects using MVC, SQL Server, and CMS for clients like Viettel and SSI. |
-| Maintenance & Features | Onsite maintenance, added new features, and used Ionic and Angular for app development.|
-
-#### **Key Projects:**  
-
-| **Project Name**                             | **Technologies**                                  | **Result**                                                                                              |
-|----------------------------------------------|--------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Transport Management | Youth Transport**  | .NET MVC, Hangfire, SignalR, Ionic, SQL Server    | Optimized report queries (5 minutes → 30 seconds), enabled real-time updates, and automated wage calculations. |
-| **Document Sharing Portal | SSI Research**  | .NET MVC, Redis                                   | Enhanced website speed and user experience with Redis caching for faster document management.            |
-| **Salon Booking App | ZIO Hair**            | .NET Core, Angular, SQL Server                   | Streamlined scheduling, real-time booking, and product purchase processes for improved engagement.      |
-
----
-
-### **VCCorp Joint Stock Company**  
-**09/2022 - 10/2022**  
-**.NET Developer**  
-
-| **Project Name** | **Technologies** | **Description**                                                                 |
-|------------------|------------------|---------------------------------------------------------------------------------|
-| **VTV.vn**       | .NET Core, HTML, JS, CSS | Maintained and updated the base code for improved functionality.                |
-| **Soha.vn**      | .NET Core, HTML, JS, CSS | Designed the interface and features for the video news section of the website. |
-
----  
-
-**End of Resume**  
+Học viện Kỹ thuật Mật mã (Academy of Cryptography) — Kỹ sư, Software Engineering
