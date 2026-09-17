@@ -25,6 +25,16 @@
 
 <br/>
 
+## Contribution Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-insight-terminal-asci.vercel.app/svg/graph?user=satthuno999&theme=mac"
+    alt="GitHub Contributions"
+  />
+</p>
+
+---
 ## Overview
 
 ```yaml
@@ -254,38 +264,6 @@ The goal is not simply to write code, but to understand **how the entire system 
 
 ---
 
-## GitHub Activity
-
-<div align="center">
-
-<img
-  src="https://github-stats-extended.vercel.app/api?username=satthuno999&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"
-  alt="GitHub Stats"
-/>
-
-<img
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=satthuno999&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400"
-  alt="Top Languages"
-/>
-
-</div>
-
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=satthuno999&theme=tokyonight&hide_border=true"
-  alt="GitHub Streak"
-/>
-
-</div>
-
----
-
 ## Education
 
 **Academy of Cryptography Techniques**
@@ -293,6 +271,40 @@ The goal is not simply to write code, but to understand **how the entire system 
 `Engineer · Software Engineering`
 
 ---
+## GitHub Activity
+
+<table align="center">
+  <tr>
+    <td>
+      <img
+        src="https://github-stats-extended.vercel.app/api?username=satthuno999&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"
+        height="165"
+        alt="GitHub Statistics"
+      />
+    </td>
+    <td>
+      <img
+        src="https://github-stats-extended.vercel.app/api/top-langs/?username=satthuno999&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=86400"
+        height="165"
+        alt="Top Languages"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img
+        src="https://github-readme-streak-stats.herokuapp.com/?user=satthuno999&theme=tokyonight&hide_border=true"
+        height="165"
+        alt="GitHub Streak"
+      />
+    </td>
+  </tr>
+</table>
+
+
+---
+
+
 
 <div align="center">
 
