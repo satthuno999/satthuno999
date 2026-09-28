@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=210&section=header&text=Vu%20Xuan%20Binh&fontSize=55&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20.NET%20%7C%20AI%20Agents%20%7C%20Kubernetes&descSize=17&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=210&section=header&text=Vu%20Xuan%20Binh&fontSize=55&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20.NET%20%7C%20AI%20Agents%20%7C%20DevOps&descSize=17&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
@@ -162,8 +162,7 @@ Designed and developed enterprise systems using **.NET Core, DDD, CQRS, SQL Serv
 
 **Leadership**
 
-* Led and mentored a team of **6 members**
-* `4 Developers · 1 Tester · 1 QA`
+* Led and mentored a dev team of **3 members dev**
 * Code review and technical design
 * Architecture and backend development
 * CI/CD and production deployment
