@@ -49,13 +49,14 @@ experience:  4+ years
 
 current:
   company:   IIG Vietnam
-  focus:     ".NET · Full-Stack · Distributed Systems"
+  focus:     "Exam registration & administration · .NET 8–10 · Kafka"
 
 building:
-  - AI Agent infrastructure
-  - Self-hosted platforms
-  - Kubernetes / GitOps
-  - Business management products
+  - S Store       # retail SaaS: web + iOS/Android, 189-tool MCP server
+  - MotKey        # self-hosted AI gateway (OpenAI / Anthropic compatible)
+  - S Finance     # multi-tenant expense & debt SaaS (Go)
+  - S Payment     # shared payment & reconciliation service
+  - Kubernetes / GitOps platform for all of the above
 
 interests:
   - System Design
@@ -78,7 +79,7 @@ interests:
 <div align="left">
 
 <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET_8_|_10-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -99,6 +100,8 @@ interests:
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hangfire-4B5563?style=flat-square"/>
+<img src="https://img.shields.io/badge/MinIO_/_S3-C72E49?style=flat-square&logo=minio&logoColor=white"/>
 
 </div>
 
@@ -113,6 +116,9 @@ interests:
 <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
 
 </div>
 
@@ -142,14 +148,22 @@ interests:
 **Software Engineer / Application Developer**
 `04/2025 — Present`
 
-Developing and operating internal applications supporting nationwide examination operations.
+Developing IIG's exam registration and exam administration systems (English, IT and the Japanese JOT exam): the candidate portal, the admin Core, the exam catalog, Kafka workers and shared services (email, SMS, payments, invoicing).
 
-* Build production systems with **.NET 8 / WPF**
-* Design backend workflows for high-volume examination operations
-* Support systems serving **hundreds to thousands of concurrent users**
-* Build distributed **Email Service** using Kafka, Redis and Background Workers
-* Develop asynchronous processing pipelines
-* Troubleshoot and operate production systems
+* **900+ merge requests (~98% merged)** in 18 months; main contributor to 6 repositories, shipping through dev → staging → pilot → prod
+* Systems serving **hundreds to thousands of concurrent test takers** during exam waves
+* **Anti-cheating**: blacklist approval flow, suspected proxy test-taking, registration blocking at the candidate portal
+* Integrations with partners (GISPA — JOT exam data sync) and third parties (e-invoicing, VNPay, MB Bank, MoMo)
+* Moved the Core's data and migrations from **SQL Server to PostgreSQL**; observability with **OpenTelemetry + SigNoz**
+
+**Key projects**
+
+| Project | What I built | Technology |
+| --- | --- | --- |
+| **JOT — Japanese exam registration** | New system from scratch (06/2026): eKYC / OCR, VNPay / MB / MoMo via IPN with Redis checkout locks, e-invoices via Hangfire → Kafka, GISPA sync with HMAC + outbox | .NET 10 · Clean Architecture · PostgreSQL · MongoDB · Redis · Kafka · Next.js 16 |
+| **Exam administration Core** | Anti-cheating, computer-based test paper assignment (multi-level approval, Redis-locked jobs, audit log), IT score import over Kafka, B2B candidate import with live SignalR progress | .NET 8 · PostgreSQL · SQL Server · Dapper · Kafka · SignalR · React · Ant Design |
+| **Exam registration portal & IT exams** | Cancellations with refunds, exam transfers, 48h spacing & national-ID clash checks, vouchers / combo / student pricing, MoMo, e-invoice sync | .NET 8 · PostgreSQL · Redis · Kafka · React |
+| **Internal Email Service** | Kafka mail queue with send limits, per-service API keys, tracking + webhooks, live status over SignalR, department template builder — target 1M emails/day | .NET · Kafka · Redis · MongoDB · Hangfire · React |
 
 ---
 
@@ -169,16 +183,28 @@ Designed and developed enterprise systems using **.NET Core, DDD, CQRS, SQL Serv
 
 ---
 
-## Selected Projects
+## Personal Projects
 
-| Project                           | Description                             | Technology                                           |
-| --------------------------------- | --------------------------------------- | ---------------------------------------------------- |
-| **CiCi 21 Chùa Láng**             | Multi-tenant HRM / ERP / CRM platform   | .NET 8 · Next.js · PostgreSQL · Redis · React Native |
-| **IIG Email Service**             | High-volume internal email processing   | .NET · Kafka · Redis · Background Workers            |
-| **English Learning Platform**     | Enterprise learning & management system | .NET Core · SQL Server · Redis · Next.js             |
-| **Internal Transport Management** | Transport operation & scheduling        | .NET · Ionic · Hangfire · SignalR                    |
-| **Document Sharing Portal**       | Internal document management            | .NET MVC · Redis                                     |
-| **Salon Appointment Booking**     | Booking & scheduling platform           | .NET Core · Angular · SQL Server                     |
+Built and run on my own Kubernetes + GitOps platform. Details: [devbyspark.com/work](https://devbyspark.com/work/)
+
+| Project | Description | Technology |
+| --- | --- | --- |
+| **[S Store](https://devbyspark.com/work/core-cms-cici/)** | Retail SaaS (web + iOS/Android): sales, inventory, shifts, face attendance, payroll; multi-tenant with PostgreSQL RLS, offline POS, 189-tool MCP server, 6,000+ automated tests | .NET 8 · CQRS · PostgreSQL (RLS, pgvector) · Kafka · SignalR · Next.js · React Native (Expo) |
+| **[MotKey — AI Gateway](https://devbyspark.com/work/spark-ai-gateway/)** | Self-hosted OpenAI / Anthropic-compatible gateway: virtual keys, upstream failover, multi-org console, 2FA / SSO / SCIM, spending caps | NestJS · PostgreSQL · Redis · BullMQ · SSE · Next.js |
+| **[S Finance](https://devbyspark.com/work/spark-finance/)** | Multi-tenant expense & debt SaaS: LLM bank-statement import, partner lending with daily interest, 29-tool MCP server | Go · PostgreSQL (RLS) · pgvector · React · Cloudflare R2 |
+| **[S Payment](https://devbyspark.com/work/s-payment/)** | Shared payment service: QR / payOS / VNPay, bank feeds & webhooks, reconciliation, HMAC callbacks, .NET / Go SDKs | .NET 10 · EF Core · PostgreSQL · React |
+| **[S Shipping](https://devbyspark.com/work/s-shipping/)** | Multi-carrier quotes and shipments (GHN, Ahamove, GHTK) with status webhooks | .NET 8 · PostgreSQL |
+| **[devbyspark.com](https://devbyspark.com)** | This portfolio: bilingual CMS, printable CV, AI chat over SSE, 24-tool MCP server | Express · Prisma · Next.js 14 · MCP |
+| **[Puchikoro](https://devbyspark.com/work/puchikoro/)** | Offline block puzzle game for iOS / Android with a self-hosted OTA server | Capacitor · EAS · Cloudflare Workers |
+
+## Earlier Projects (INNO SOFTWARE)
+
+| Project | Description | Technology |
+| --- | --- | --- |
+| **English Learning Platform (APTIS)** | Enterprise learning & management system | .NET Core · SQL Server · Redis · Next.js |
+| **Internal Transport Management** | Transport operation, scheduling & payroll | .NET · Ionic · Hangfire · SignalR |
+| **Document Sharing Portal (SSI)** | Internal document management | .NET MVC · Redis |
+| **Salon Appointment Booking (ZIO Hair)** | Booking & scheduling platform | .NET Core · Angular · SQL Server |
 
 ---
 
@@ -258,10 +284,11 @@ The goal is not simply to write code, but to understand **how the entire system 
 ## Highlights
 
 * **4+ years** of professional software engineering experience
+* **900+ merge requests** at IIG Vietnam in 18 months across exam registration, administration and JOT
 * Led and mentored a **6-person engineering team**
 * Built systems supporting **hundreds → thousands of concurrent users**
 * Optimized a production reporting workflow from **~5 minutes → ~30 seconds**
-* Designed and operated a **multi-tenant HRM / ERP / CRM** product
+* Designed and operated a **multi-tenant retail SaaS** (S Store) and a self-hosted **AI gateway** (MotKey)
 * Building and operating **Kubernetes + GitOps** infrastructure
 * Exploring **AI Agent / MCP / LLM infrastructure**
 
