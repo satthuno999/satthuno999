@@ -150,7 +150,7 @@ interests:
 
 Developing IIG's exam registration and exam administration systems (English, IT and the Japanese JOT exam): the candidate portal, the admin Core, the exam catalog, Kafka workers and shared services (email, SMS, payments, invoicing).
 
-* **900+ merge requests (~98% merged)** in 18 months; main contributor to 6 repositories, shipping through dev → staging → pilot → prod
+* Main contributor to 6 repositories (admin Core, admin UI, JOT, import workers), shipping through dev → staging → pilot → prod
 * Systems serving **hundreds to thousands of concurrent test takers** during exam waves
 * **Anti-cheating**: blacklist approval flow, suspected proxy test-taking, registration blocking at the candidate portal
 * Integrations with partners (GISPA — JOT exam data sync) and third parties (e-invoicing, VNPay, MB Bank, MoMo)
@@ -284,7 +284,6 @@ The goal is not simply to write code, but to understand **how the entire system 
 ## Highlights
 
 * **4+ years** of professional software engineering experience
-* **900+ merge requests** at IIG Vietnam in 18 months across exam registration, administration and JOT
 * Led and mentored a **6-person engineering team**
 * Built systems supporting **hundreds → thousands of concurrent users**
 * Optimized a production reporting workflow from **~5 minutes → ~30 seconds**
