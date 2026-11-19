@@ -55,7 +55,7 @@ building:
   - S Store       # retail SaaS: web + iOS/Android, 189-tool MCP server
   - MotKey        # self-hosted AI gateway (OpenAI / Anthropic compatible)
   - S Finance     # multi-tenant expense & debt SaaS (Go)
-  - S Payment     # shared payment & reconciliation service
+  - S Pay         # bank-transfer payments: QR per order, auto-matching (live, open sign-up)
   - Kubernetes / GitOps platform for all of the above
 
 interests:
@@ -192,7 +192,7 @@ Built and run on my own Kubernetes + GitOps platform. Details: [devbyspark.com/w
 | **[S Store](https://devbyspark.com/work/core-cms-cici/)** | Retail SaaS (web + iOS/Android): sales, inventory, shifts, face attendance, payroll; multi-tenant with PostgreSQL RLS, offline POS, 189-tool MCP server, 6,000+ automated tests | .NET 8 · CQRS · PostgreSQL (RLS, pgvector) · Kafka · SignalR · Next.js · React Native (Expo) |
 | **[MotKey — AI Gateway](https://devbyspark.com/work/spark-ai-gateway/)** | Self-hosted OpenAI / Anthropic-compatible gateway: virtual keys, upstream failover, multi-org console, 2FA / SSO / SCIM, spending caps | NestJS · PostgreSQL · Redis · BullMQ · SSE · Next.js |
 | **[S Finance](https://devbyspark.com/work/spark-finance/)** | Multi-tenant expense & debt SaaS: LLM bank-statement import, partner lending with daily interest, 29-tool MCP server | Go · PostgreSQL (RLS) · pgvector · React · Cloudflare R2 |
-| **[S Payment](https://devbyspark.com/work/s-payment/)** | Shared payment service: QR / payOS / VNPay, bank feeds & webhooks, reconciliation, HMAC callbacks, .NET / Go SDKs | .NET 10 · EF Core · PostgreSQL · React |
+| **[S Pay](https://devbyspark.com/work/s-payment/)** · [spay.devbyspark.com](https://spay.devbyspark.com/gioi-thieu) | Bank-transfer payments for shops & apps: credit notifications from many banks / services, per-order VietQR, automatic matching, HMAC webhooks, API v2 + .NET / Go SDKs; browser-assisted connection & in-app AI assistant. Open for sign-up | .NET 10 · EF Core · PostgreSQL · Vue 3 · Three.js · Playwright |
 | **[S Shipping](https://devbyspark.com/work/s-shipping/)** | Multi-carrier quotes and shipments (GHN, Ahamove, GHTK) with status webhooks | .NET 8 · PostgreSQL |
 | **[devbyspark.com](https://devbyspark.com)** | This portfolio: bilingual CMS, printable CV, AI chat over SSE, 24-tool MCP server | Express · Prisma · Next.js 14 · MCP |
 | **[Puchikoro](https://devbyspark.com/work/puchikoro/)** | Offline block puzzle game for iOS / Android with a self-hosted OTA server | Capacitor · EAS · Cloudflare Workers |
